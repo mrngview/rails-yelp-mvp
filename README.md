@@ -33,4 +33,4 @@ The objective of this challenge is to build a 2-model Rails app with restaurant 
 
 - Association done.
 
-- Validation done?
+- Validation done? To check --> When a restaurant is destroyed, all reviews should be destroyed as well.
