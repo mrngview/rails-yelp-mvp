@@ -33,4 +33,4 @@ The objective of this challenge is to build a 2-model Rails app with restaurant 
 
 - Association done.
 
-- Still need to do the VALIDATION and the ROUTING.
+- Validation done?
