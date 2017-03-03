@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Background & Objectives
+
+The objective of this challenge is to build a 2-model Rails app with restaurant and anonymous reviews. You can refer to the Rails guide to see a similar example on articles and comments.
