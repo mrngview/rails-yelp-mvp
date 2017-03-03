@@ -31,4 +31,6 @@ The objective of this challenge is to build a 2-model Rails app with restaurant 
 
 - Tables created (xml can be found in main folder)
 
+- Association done.
+
 - Still need to do the VALIDATION and the ROUTING.
