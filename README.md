@@ -27,12 +27,14 @@ Background & Objectives
 
 The objective of this challenge is to build a 2-model Rails app with restaurant and anonymous reviews. You can refer to the Rails guide to see a similar example on articles and comments.
 
-- Models created
+- Models created - done
 
-- Tables created (xml can be found in main folder)
+- Tables created (xml can be found in main folder) - done
 
-- Association done.
+- Association - done.
 
-- Validation done.
+- Validation - done.
 
-- Routing to be done!!!
+- Testing/playing with models (For now, one restaurant with two reviews created)
+
+- Routing.
