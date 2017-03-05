@@ -35,6 +35,8 @@ The objective of this challenge is to build a 2-model Rails app with restaurant 
 
 - Validation - done.
 
-- Testing/playing with models (For now, one restaurant with two reviews created)
+- Testing/playing with models (For now, one restaurant with two reviews created) - done
 
-- Routing.
+- Routing:
+  - As a visitor: Restaurant -> indexDONE/new/create/show
+                  Review -> new/create
