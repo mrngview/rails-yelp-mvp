@@ -13,6 +13,11 @@ class RestaurantsController < ApplicationController
     redirect_to restaurants_path
   end
 
+  def show
+    @restaurant = Restaurant.find(params[:id])
+    @reviews = @restaurant.reviews
+  end
+
   private
   def restaurant_params
     params.require(:restaurant).permit(:name, :phone_number, :address, :category)
