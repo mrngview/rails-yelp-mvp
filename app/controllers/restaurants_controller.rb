@@ -4,6 +4,11 @@ class RestaurantsController < ApplicationController
     @restaurants = Restaurant.all
   end
 
+  def show
+    @restaurant = Restaurant.find(params[:id])
+    @reviews = @restaurant.reviews
+  end
+
   def new
     @restaurant = Restaurant.new()
   end
@@ -19,9 +24,10 @@ class RestaurantsController < ApplicationController
     end
   end
 
-  def show
+  def destroy
     @restaurant = Restaurant.find(params[:id])
-    @reviews = @restaurant.reviews
+    @restaurant.destroy
+    redirect_to restaurants_path
   end
 
   private
